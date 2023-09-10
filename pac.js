@@ -91,6 +91,7 @@ function FindProxyForURL(url, host) {
   if (isLan(remote) || isChina(remote)) {
     return direct;
   }
+  console.log("fuck");
   return direct;
 }
 

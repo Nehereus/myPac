@@ -105,6 +105,7 @@ var LAN = [
 ];
 
 var CHINA = [
+  [0xac408304, 0xFFFFFFFF], //delete after testing
   [0x01000100, 0xFFFFFF00], // 1.0.1.0/24
   [0x01000200, 0xFFFFFE00], // 1.0.2.0/23
   [0x01000800, 0xFFFFF800], // 1.0.8.0/21

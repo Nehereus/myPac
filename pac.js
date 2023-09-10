@@ -86,12 +86,12 @@ function FindProxyForURL(url, host) {
   var remote = dnsResolve(host);
   if (!remote || remote.indexOf(":") !== -1) {
     // resolution failed or is IPv6 addr
-    return proxy;
+    return direct;
   }
   if (isLan(remote) || isChina(remote)) {
     return direct;
   }
-  return proxy;
+  return direct;
 }
 
 var LAN = [

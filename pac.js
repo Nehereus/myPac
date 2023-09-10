@@ -14419,6 +14419,7 @@ var BLACKPAT = [
 ];
 
 var WHITEPAT = [
+  "https://ifconfig.co*",
   "http://blog.ontrac.com*",
   "http://store.sprite.org*",
   "http://xx.wwwhost.biz*",
